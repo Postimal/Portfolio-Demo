@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description"
+        content="Front-End Developer portfolio, Michał Postek, Tworzenie stron internetowych i aplikacji webowych">
+    <meta name="keywords" content="Front-End Developer, portfolio, aplikacje webowe, tworzenie stron internetowych">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <title>MichalP-Portfolio-Demo</title>
+</head>
+
+<body>
+    <nav>
+        <div class="menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-bar">
+            <ul class="smooth">
+                <li><a href="#name">Home</a></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#dreaming">My Dreams</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- main section -->
+    <main>
+        <section id="name" class="main">
+            <div class="text-img">
+                <h1>Michał Postek</h1>
+            </div>
+            <div class="hobby">
+                <h2>front-end developer</h2>
+                <button class="arrow">
+                    <i class="fas fa-angle-down"></i>
+                </button>
+            </div>
+        </section>
+        <!-- About me -->
+        <div id="about" class="about">
+            <div class="about-container">
+                <div class="about-logo">
+                    <img src="img/my_logo.jpg" alt="MP">
+                </div>
+                <div class="about-mystory">
+                    <h1>O mnie</h1>
+                    <hr>
+                    <p> Jestem wielkim pasjonatem <strong>front-endu.</strong></p>
+                    <p> Praca przy stronach internetowych daje mi dużo przyjemności</p>
+                    <p> Ukończyłem kurs <stron>Front-End-Developer</stron>, który zaszczepił mi chęć zdobywania wiedzy
+                        na temat budowy aplikacji webowych </p>
+                    <p>Chciałbym pracować w środowisku pełnym wyzwań, gdzie mógłbym czerpać satysfakcję z dalszej
+                        nauki i rozwijać się jako <strong>Developer</strong>.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Dreams -->
+        <div id="dreaming" class="dreams">
+            <div class="dream-container">
+                <h3 id="typing"></h3>
+                <p class="show">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, officiis! Lorem ipsu
+                    dolor, sit amet consectetur adipisicing elit. Quisquam cumque veritatis quod, enim hic nostrum
+                    dolorum corporis voluptate nulla quae laborum necessitatibus aspernatur!</p>
+            </div>
+        </div>
+        <!-- Projects -->
+        <article>
+            <ul class="cb-slideshow">
+                <li id="one" class="active">
+                    <span>Projekt 01</span>
+                    <div>
+                        <h3>·Looking for inspiration on awwwards.com·</h3>
+                    </div>
+                </li>
+                <li id="two">
+                    <span>Projekt 02</span>
+                    <div>
+                        <h3>·Looking for inspiration on awwwards.com·</h3>
+                    </div>
+                </li>
+                <li id="three">
+                    <span>Projekt 03</span>
+                    <div>
+                        <h3>·Looking for inspiration on awwwards.com·</h3>
+                    </div>
+                </li>
+                <li id="four">
+                    <span>Projekt 04</span>
+                    <div>
+                        <h3>·Looking for inspiration on awwwards.com·</h3>
+                    </div>
+                </li>
+            </ul>
+            <div class="string">
+                <div class="string-snippet"></div>
+                <div class="string-snippet"></div>
+                <div class="string-snippet"></div>
+                <div class="string-snippet"></div>
+            </div>
+            <div class="box-container">
+                <div class="box">
+                    <div class="btn-one">Projekt&nbsp;01<br><span>Zobacz więcej</span></div>
+                    <div class="btn-sec">Projekt&nbsp;02<br><span>Zobacz więcej</span></div>
+                    <div class="btn-third">Projekt&nbsp;03<br><span>Zobacz więcej</span></div>
+                    <div class="btn-fourth">Projekt&nbsp;04<br><span>Zobacz więcej</span></div>
+                </div>
+            </div>
+        </article>
+        <!-- Skills -->
+        <div id="skills">
+            <div class="skills-box">
+                <div class="box-element">
+                    <div class="element-head">
+                        <img src="./img/html-logo.svg" alt="html icon">
+                        <h3>Znajmość HTML</h3>
+                    </div>
+                    <div class="element-body">Znajomość budowy struktury dokumentu HTML, umiejętność stosowania
+                        semantycznych znaczników.
+                    </div>
+                </div>
+            </div>
+            <div class="skills-box bg-g">
+                <div class="box-element">
+                    <div class="element-head">
+                        <img src="./img/css3-logo.svg" alt="css icon">
+                        <h3>Znajmość CSS</h3>
+                    </div>
+                    <div class="element-body">Płynne poruszanie się w CSS, brak trudności przy tworzeniu szablonów
+                        RWD, umiejętność wykorzystania preprocessora CSS (Sass), znajomość flex box,
+                        podstawowe poczucie estetyki, kreatywność w tworzeniu
+                    </div>
+                </div>
+            </div>
+            <div class="skills-box bg-g">
+                <div class="box-element">
+                    <div class="element-head">
+                        <img src="./img/javascript-logo.svg" alt="js icon">
+                        <h3>Znajmość JavaScript</h3>
+                    </div>
+                    <div class="element-body"> Znajomość mechanizmów JavaScript takich jak: hoisting, domknięcia, zakres
+                        zmiennych (scope), znajomość programowania funkcyjnego, umiejętność operowania na tablicach w
+                        JavaScript, manipulacja
+                        drzewem DOM, znajomość ES6, znajomość AJAX
+                    </div>
+                </div>
+            </div>
+            <div class="skills-box">
+                <div class="box-element">
+                    <div class="element-head">
+                        <img src="./img/react-logo.svg" alt="react icon">
+                        <h3>Pierwszy Kontakt</h3>
+                    </div>
+                    <div class="element-body"> ToDoList w React :)</div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+        <footer id="contact">
+            <div class="footer-container">
+                <div class="head-contact">
+                    <h1>Skontaktuj się ze mną</h1>
+                    <div class="underline"></div>
+                </div>
+                <div class="head-icons">
+                    <ul>
+                        <li><a href="https://github.com/Postimal" target="_blank"><i
+                                    class="fab fa-github-square"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/micha%C5%82-postek-349aaa162/" target="_blank"><i
+                                    class="fab fa-linkedin"></i></a></li>
+                        <li><a href="mailto:michal.postek1@wp.pl" target="_blank"><i
+                                    class="fas fa-envelope-square"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="copyright">Michał Postek, Copyright &copy; 2019</div>
+
+        </footer>
+
+
+    </main>
+
+
+
+
+</body>
+
+</html>
