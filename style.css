@@ -605,6 +605,9 @@ footer .copyright {
     .box-container .box,.box-container .box div span {
         font-size: 0.7rem;
     }
+    .skills-box {
+        height: 600px;
+    }
     footer h1 {
         font-size: 1.3rem;
     }
