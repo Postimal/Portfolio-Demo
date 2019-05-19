@@ -446,8 +446,8 @@ article {
 }
 .skills-box .box-element .element-head img {
     filter: grayscale(70%);
-    width: 120px;
-    height: 120px
+    width: 95px;
+    height: 95px
 }
 
 /* Footer */
@@ -543,7 +543,7 @@ footer .copyright {
     }
     .skills-box {
         width: 100%;
-        height: 350px;
+        height: 450px;
     }
     .skills-box:nth-child(4) {
         background-color: #f3f3f3;
